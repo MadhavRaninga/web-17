@@ -1,0 +1,603 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    /* margin-inline: 10%; */
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+.nav-left{
+    width: 40%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-left a{
+    text-decoration: none;
+    color: rgb(130,132,130);
+    font-size: 18px;
+    font-weight: 500;
+    word-spacing: 1px;
+
+}
+.nav-left a:hover{
+    color: RGB(36, 36, 36);
+    font-weight: 700;
+}
+.nav-right{
+    width: 11%;
+    height: inherit;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.round{
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   border: 1px solid red;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.round svg{
+    /* font-size: 20; */
+    color: red;
+}
+.country{
+    width: 100px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.country p{
+    font-size: 18px;
+    position: relative;
+    top: 8px;
+}
+.country img{
+    width: 24px;
+    height: 15px;
+}
+.hero{
+    width: 100%;
+    height: 65vh;
+    background-size: cover;
+    background-position: right;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    /* animation: backgroundSlider 15s infinite; */
+}
+.hero img{
+    width: 100%;
+    height: 100%;
+}
+.pr{
+    width: 100%;
+    height: 40vh;
+    background-image: url(./assets/2024-09-13\ 151008.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero{
+    width: 100%;
+    height: 60vh;
+    
+}
+.new{
+    width: 40%;
+    height: 80px;
+    margin-left: 30%;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    border-bottom: 1px solid rgb(137, 137, 137);
+
+}
+.name{
+    width: 150px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bike{
+    border-bottom: 2px solid rgb(238,35,38);
+
+}
+.name h4{
+    font-size: 18px;
+    font-weight: 400;
+    transition: .3s;
+    cursor: pointer;
+   
+}
+.name h4:hover{
+    font-weight: 600;
+    cursor: pointer;
+}
+#n{
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.bike{
+    width: 370px;
+    height: 300px;
+    background-image: url(https://www.heromotocorp.com/content/dam/hero-aem-website/in/design-bd/karizma/11.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    margin-left: 40%;
+    margin-top: 30px;
+    transition: .6s;
+}
+
+.bike:hover{
+    transform: scale(1.15);
+}
+.hero p{
+   margin-left: 43%;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.other{
+    width: 100%;
+    height: 35vh;
+    background-image: url(https://www.heromotocorp.com/content/dam/hero-aem-website/in/design-bd/findahero-bg.svg);
+    background-position: center;
+    background-size: cover;
+    padding-inline: 12%;
+    padding-block: 3%;
+}
+.other .red{
+    color: red;
+    text-transform: uppercase;
+}
+.other h1{
+    text-transform: uppercase;
+    color: RGB(255, 255, 255);
+    word-spacing: 2px;
+    font-size: 30px;
+}
+.select{
+    width: 100%;
+    height: 100px;
+    display: flex;  
+    margin-top: 60px;
+    justify-content: space-between
+
+}
+.vehicle{
+    width: 23%;
+    height: inherit;
+}
+.vehicle p{
+    color: white ;
+    font-size: 19px;
+}
+.line{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(204,204,204);
+    cursor: pointer;
+}
+.line h4{
+    color: white;
+    font-size: 20px;
+}
+.line i{
+    color: white;
+    font-size: 20px;
+}
+.vehicle button{
+    width: 250px;
+    height: 60px;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-color: rgb(165,165,165);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(237,237,237);
+
+}
+.other2{
+    width: 100%;
+    height: 80vh;
+  
+    display: flex;
+}
+.other2-left{
+    width: 60%;
+    height: inherit;
+    position: relative;
+    background-size: cover;
+   
+}
+.other2-left img{
+    
+}
+.box{
+    width: 750px;
+    height: 550px;
+    position: absolute;
+    left: 25%;
+    top: 15%;
+}
+.box h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+.box h6{
+    font-size: 15px;
+    margin-top: 40px;
+    
+}
+.box span{
+    color: red;
+}
+.box span:hover{
+     border-bottom: 1px solid red;
+
+}
+.box button{
+    width: 190px;
+    height: 55px;
+    margin-left: 7px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background: rgb(242,13,13);
+    background: linear-gradient(90deg, rgba(242,13,13,1) 38%, rgba(223,108,115,1) 51%, rgba(238,5,33,1) 63%);
+}
+.box button:hover{
+    -webkit-box-shadow: -2px 4px 50px 0px rgba(214,15,25,0.54);
+    -moz-box-shadow: -2px 4px 50px 0px rgba(214,15,25,0.54);
+    box-shadow: -2px 4px 50px 0px rgba(214,15,25,0.54);
+}
+.line1{
+    width: 100%;
+    height: 68px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.line-left{
+    width: 45%;
+    height: 100%;
+    border-bottom: 2px solid rgb(106, 106, 106);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.line-left p{
+    font-size: 20px;
+    line-height: 15px;
+    font-weight: 300;
+}
+.line-left span{
+   color: red;
+}
+.line-left input{
+    border: none;
+    outline: none;
+    padding-bottom: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(48, 47, 47);
+}
+.line-left i{
+    position: relative;
+    top: -35px;
+    font-size: 20px;
+    left: 85%;
+}
+.line-left ::placeholder{
+    border: none;
+    outline: none;
+    padding-bottom: 8px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(206, 205, 205);
+}
+
+.line-right{
+    width: 45%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.other2-right{
+    width: 40%;
+    height: inherit;
+    /* background-image: url(https://www.heromotocorp.com/content/dam/hero-aem-website/in/design-bd/banner-images/banners-color-updates/Thriller_160R_4V_mob.jpg); */
+    overflow: hidden;
+}
+.other2-right img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+
+}
+.other2-right img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.other3{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(238,238,238);
+    padding-inline: 8%;
+    position: relative;
+}
+.world{
+    width: 60%;
+    position: absolute;
+    height: 200px;
+    left: 20%;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+
+}
+.world h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 500;
+}
+.world span{
+    color: red;
+}
+.world p{
+    text-align: center;
+    font-size: 27px;
+    color: rgb(95, 95, 95);
+    font-weight: 300;
+    line-height: 35px;
+}
+.box-2{
+    width: 90%;
+    height: 450px;
+    top: 35%;
+    position: relative;
+    left: 5%;
+    display: flex;
+  
+    justify-content: space-between;
+}
+.box-1{
+    width: 32%;
+    height: inherit;
+}
+.box1-top{
+    width: 100%;
+    height: 90%;
+   
+   
+}
+.box1-top img{
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.box1-bottom{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    padding-inline: 3%;
+    justify-content: end;
+    align-items: center;
+    background-color: rgb(191,191,191);
+}
+.box1-bottom p{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 18px;
+    color: red;
+   
+}
+.box1-bottom i{
+    padding-top: 5px;
+    padding-left: 3px;
+}
+.other4{
+    width: 100%;
+    height: 650px;
+    background-image: url(https://www.heromotocorp.com/etc.clientlibs/hero-aem-website/clientlibs/clientlib-base-global/resources/images/stats-bg.svg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.other-top{
+    width: 100%;
+    height: 590px;
+    
+}
+.other-top h1{
+    color:  white;
+    text-align: center;
+    padding-top: 60px;
+    font-size:45px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.bold{
+    font-weight: 700;
+}
+.other-top p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+.other-top h2{
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    font-style: italic;
+    margin-top: 50px;
+    font-weight: 600;
+}
+.hr{
+    background-color: red;
+    width: 3.5%;
+    margin-left: 48.25%;
+    height: 2px;
+    border: none;
+}
+.two{
+    width: 100%;
+    height: 215px;
+    background-color: rgba(162, 23, 23, 0.811);
+    margin-top: 100px;
+    padding-left: 5%;
+    padding-block: 2%;
+    display: flex;
+    z-index: -1;
+}
+.pare1{
+    width: 190px;
+    height: 200px;
+    margin-left: 40px;
+    
+}
+.pare1 h3{
+    color: white;
+    font-style: italic;
+    font-size: 45px;
+     text-align: center;
+     letter-spacing: 2px;
+}
+.pare1 p{
+    font-size: 19px
+}
+.bike2{
+    width: 700px;
+    height: 200px;
+    position: relative;
+    bottom: 90px;
+    z-index: 1;
+}
+marquee{
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+}
+marquee img{
+    width: 600px;
+    z-index: 1;
+    height: 390px;
+
+}
+.footer{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(32,32,32);
+    margin-top: 8%;
+    padding-inline: 12%;
+    padding-top: 3.5%;
+}
+.foot{
+    width: 85%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product{
+    width: 200px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+
+}
+.product h2{
+    color: white;
+ 
+    font-size: 26px;
+    font-weight: 600;
+
+}
+.product a{
+    color: RGB(218, 218, 218);
+     text-decoration: none;
+     padding-top: 15px;
+     line-height: 8px;
+}
+.product a:hover{
+    text-decoration: underline;
+    color: RGB(218, 218, 218);
+  
+}
+#became{
+    padding-top: 10px;
+    line-height: 8px;
+
+}
+.line2{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(117,117,117);
+}
+.footer-bottom{
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between\;
+  
+}
+.footer-bottom p{
+    color: RGB(210, 210, 210);
+    margin-top: 7px;
+    margin-left: 8px;
+    font-weight: 300;
+}
+
+.footer-bottom h1{
+    color: RGB(210, 210, 210);
+    font-size: 30px;
+    font-weight: 300;
+
+}
+.footer-bottom h2{
+    font-weight: 500;
+    color: rgb(234, 230, 230);
+    font-size: 20px;
+    margin-left: 60%;
+}
+.footer-bottom img{
+    margin-left: 10px;
+    width: 25px;
+}
